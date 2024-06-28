@@ -101,6 +101,7 @@ function renderQuestions() {
 
                 const deleteButton = document.createElement('button');
                 deleteButton.textContent = 'Xóa';
+                deleteButton.disabled = true;
                 deleteButton.addEventListener('click', () => deleteQuestion(index));
 
                 questionDiv.appendChild(editButton);
