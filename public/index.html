@@ -9,191 +9,86 @@
 </head>
 
 <body>
-<div class="container">
-    <div>
-        <h1>Tạo Câu Hỏi và Đáp Án</h1>
-        <div class="input-group">
-            <label for="question">Câu hỏi:</label>
-            <input type="text" id="question" placeholder="Nhập câu hỏi">
-        </div>
-        <div class="input-group">
-            <label for="answerA">Đáp án A:</label>
-            <input type="text" id="answerA" placeholder="Nhập đáp án A">
-            <input type="radio" name="correctAnswer" value="A">
-        </div>
-        <div class="input-group">
-            <label for="answerB">Đáp án B:</label>
-            <input type="text" id="answerB" placeholder="Nhập đáp án B">
-            <input type="radio" name="correctAnswer" value="B">
-        </div>
-        <div class="input-group">
-            <label for="answerC">Đáp án C:</label>
-            <input type="text" id="answerC" placeholder="Nhập đáp án C">
-            <input type="radio" name="correctAnswer" value="C">
-        </div>
-        <div class="input-group">
-            <label for="answerD">Đáp án D:</label>
-            <input type="text" id="answerD" placeholder="Nhập đáp án D">
-            <input type="radio" name="correctAnswer" value="D">
-        </div>
-        <button id="addQuestionBtn">LƯU</button>
-    </div>
+    <h1 style="text-align: center;">TẠO CÂU HỎI TRẮC NGHIỆM TTHCM </h1>
+    <div class="container">
+        <div class="box_ques">
+            <div class="input-group line_ques">
+                <label for="question">Câu hỏi:</label>
+                <textarea type="text" id="question" placeholder="Nhập câu hỏi"></textarea>
+            </div>
+            <div class="input-group">
+                <label for="answerA">A.</label>
+                <div>
+                    <input type="text" id="answerA" placeholder="Nhập đáp án A">
+                    <input type="radio" name="correctAnswer" value="A">
+                </div>
 
-    <div>
+            </div>
+            <div class="input-group">
+                <label for="answerB">B.</label>
+                <div>
+                    <input type="text" id="answerB" placeholder="Nhập đáp án B">
+                    <input type="radio" name="correctAnswer" value="B">
+                </div>
+
+            </div>
+            <div class="input-group">
+                <label for="answerC">C.</label>
+                <div>
+                    <input type="text" id="answerC" placeholder="Nhập đáp án C">
+                    <input type="radio" name="correctAnswer" value="C">
+                </div>
+
+            </div>
+            <div class="input-group">
+                <label for="answerD">D.</label>
+                <div>
+                    <input type="text" id="answerD" placeholder="Nhập đáp án D">
+                    <input type="radio" name="correctAnswer" value="D">
+                </div>
+
+            </div>
+            <div class="line_save">
+                <button class="btn btn_add_gt" onclick="themGiaiTich()">THÊM GIẢI THÍCH</button>
+                <button id="addQuestionBtn" class="btn">LƯU</button>
+            </div>
+            <div class="addGT" id="addGT">
+                <div class="close_sow">
+                    <button onclick="dongGiaiTich()">ĐÓNG</button>
+                </div>
+                <div>
+                    <textarea placeholder="Nhập giải thích" id="gt"></textarea>
+                </div>
+            </div>
+        </div>
+
         <div>
-            <button>BẮT ĐẦU THUYẾT TRÌNH</button>
+            <div style="text-align: right;">
+                <button  class="btn" onclick="thuyetTrinh()">BẮT ĐẦU THUYẾT TRÌNH</button>
+            </div>
+            <div id="totalQuestions" style="font-weight: 600;"></div>
+
+            <div id="questionList" class="list"></div>
         </div>
-
-        <div id="questionList"></div>
-        <p id="totalQuestions"></p>
     </div>
-</div>
+
+    <div class="show_thuyetTrinh" id="show_thuyetTrinh">
+        <div class="ct_tt">
+            <div class="line_cs">
+                <button onclick="hideTT()">X</button>
+            </div>
+            <div class="listSlide" id="listSlide"></div>
+            <div class="line_btn_sl">
+                <button id="prevBtn"><<</button>
+                <button id="nextBtn">>></button>
+            </div>
+        </div>
+    </div>
+    
 
 
+    <script src="./js.js"></script>
 
-
-    <script>
-        let questions = [];
-        let editIndex = -1;
-
-        document.getElementById('addQuestionBtn').addEventListener('click', () => {
-            const question = document.getElementById('question').value;
-            const answerA = document.getElementById('answerA').value;
-            const answerB = document.getElementById('answerB').value;
-            const answerC = document.getElementById('answerC').value;
-            const answerD = document.getElementById('answerD').value;
-            const correctAnswer = document.querySelector('input[name="correctAnswer"]:checked');
-
-            if (!question || !answerA || !answerB || !answerC || !answerD || !correctAnswer) {
-                alert('Vui lòng nhập đầy đủ thông tin và chọn đáp án đúng.');
-                return;
-            }
-
-            const newQuestion = {
-                cauhoi: question,
-                dapan: {
-                    A: answerA,
-                    B: answerB,
-                    C: answerC,
-                    D: answerD
-                },
-                dapandung: correctAnswer.value
-            };
-
-            if (editIndex === -1) {
-                questions.push(newQuestion);
-            } else {
-                questions[editIndex] = newQuestion;
-                editIndex = -1;
-            }
-
-            fetch('/save-question', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(questions)
-            })
-                .then(response => response.text())
-                .then(data => {
-                    console.log(data);
-                    renderQuestions();
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                });
-
-            clearForm();
-        });
-
-        function renderQuestions() {
-            fetch('/questions')
-                .then(response => response.json())
-                .then(data => {
-                    questions = data;
-                    const questionList = document.getElementById('questionList');
-                    const totalQuestions = document.getElementById('totalQuestions');
-                    questionList.innerHTML = '';
-
-                    questions.forEach((question, index) => {
-                        const questionDiv = document.createElement('div');
-                        questionDiv.classList.add('question');
-
-                        const questionText = document.createElement('p');
-                        questionText.textContent = `Câu ${index + 1}: ${question.cauhoi}`;
-                        questionDiv.appendChild(questionText);
-
-                        const answersList = document.createElement('ul');
-
-                        for (let key in question.dapan) {
-                            const answerItem = document.createElement('li');
-                            answerItem.textContent = `${key}: ${question.dapan[key]}`;
-                            if (key === question.dapandung) {
-                                answerItem.classList.add('correct-answer');
-                            }
-                            answersList.appendChild(answerItem);
-                        }
-
-                        questionDiv.appendChild(answersList);
-
-                        const editButton = document.createElement('button');
-                        editButton.textContent = 'Sửa';
-                        editButton.addEventListener('click', () => editQuestion(index));
-
-                        const deleteButton = document.createElement('button');
-                        deleteButton.textContent = 'Xóa';
-                        deleteButton.addEventListener('click', () => deleteQuestion(index));
-
-                        questionDiv.appendChild(editButton);
-                        questionDiv.appendChild(deleteButton);
-
-                        questionList.appendChild(questionDiv);
-                    });
-
-                    totalQuestions.textContent = `Tổng số câu hỏi: ${questions.length}`;
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                });
-        }
-
-        function editQuestion(index) {
-            const question = questions[index];
-            document.getElementById('question').value = question.cauhoi;
-            document.getElementById('answerA').value = question.dapan.A;
-            document.getElementById('answerB').value = question.dapan.B;
-            document.getElementById('answerC').value = question.dapan.C;
-            document.getElementById('answerD').value = question.dapan.D;
-            document.querySelector(`input[name="correctAnswer"][value="${question.dapandung}"]`).checked = true;
-            editIndex = index;
-        }
-
-        function deleteQuestion(index) {
-            fetch(`/delete-question/${index}`, {
-                method: 'DELETE'
-            })
-            .then(response => response.text())
-            .then(data => {
-                console.log(data);
-                renderQuestions();
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
-        }
-
-        function clearForm() {
-            document.getElementById('question').value = '';
-            document.getElementById('answerA').value = '';
-            document.getElementById('answerB').value = '';
-            document.getElementById('answerC').value = '';
-            document.getElementById('answerD').value = '';
-            document.querySelector('input[name="correctAnswer"]:checked').checked = false;
-        }
-
-        // Render questions when the page loads
-        renderQuestions();
-    </script>
 
 </body>
 

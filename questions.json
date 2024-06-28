@@ -1,12 +1,398 @@
 [
   {
-    "cauhoi": "dsdd",
+    "cauhoi": "Chủ tịch Hồ Chí Minh đã đưa ra quan niệm nhấn mạnh ý nghĩa của văn hóa trong thời gian, địa điểm nào? ",
     "dapan": {
-      "A": "sd",
-      "B": "sd",
-      "C": "dsd",
-      "D": "sd"
+      "A": "Tháng 6-1931, trong nhà tù Victoria",
+      "B": "Tháng 8-1943, trong nhà tù Tưởng Giới Thạch",
+      "C": "Tháng 8-1944, trong nhà tù Tưởng Giới Thạch",
+      "D": "Tháng 8-1945, trong nhà tù Tưởng Giới Thạch"
     },
-    "dapandung": "B"
+    "dapandung": "B",
+    "giaithich": "phần1a đoạn thứ 2 trang 207"
+  },
+  {
+    "cauhoi": "Trong nghị quyết 24C/18.6.5 của khóa họp 24 Đại Hội đồng UNESCO từ ngày 20-10-1987 đến ngày 20-11-1987, Chủ tịch Hồ Chí Minh được ghi nhận là?",
+    "dapan": {
+      "A": "Anh hùng giải phóng dân tộc",
+      "B": "Nhà văn hóa kiệt xuất Việt Nam",
+      "C": "Anh hùng giải phóng dân tộc, Nhà văn hóa kiệt xuất",
+      "D": "Danh nhân văn hóa thế giới"
+    },
+    "dapandung": "A",
+    "giaithich": "Phần I đoạn đầu tiên dòng 2 trang 206"
+  },
+  {
+    "cauhoi": "Chủ tịch Hồ Chí Minh đã đưa ra mấy cách tiếp cận chủ yếu về văn hóa? ",
+    "dapan": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "dapandung": "D",
+    "giaithich": "Phần 1a đoạn đầu dòng 1 trang 207"
+  },
+  {
+    "cauhoi": "Câu nói: “ Dân ta phải biết sử ta. Cho tường gốc tích nước nhà Việt Nam” là của ai? ",
+    "dapan": {
+      "A": "Võ Nguyên Giáp",
+      "B": "Hồ Chí Minh",
+      "C": "Nông Đức Mạnh",
+      "D": "Phạm Minh Chính"
+    },
+    "dapandung": "B",
+    "giaithich": "trang 210 đoạn cuối hàng thứ 3 từ dưới tính lên"
+  },
+  {
+    "cauhoi": "Hồ Chí Minh đề cập đến khái niệm văn hóa dưới những góc độ như thế nào?",
+    "dapan": {
+      "A": "Dưới góc độ theo nghĩa rộng",
+      "B": "Dưới góc độ theo nghĩa hẹp",
+      "C": "Dưới góc độ theo nghĩa rộng, hẹp, hẹp hơn và theo phương thức “ sử dụng công cụ sinh hoạt”",
+      "D": "Tiếp cận theo phương thức sử dụng công cụ sinh hoạt"
+    },
+    "dapandung": "C",
+    "giaithich": "trong slide phần 1a có đề cập đến vấn đề này rất rõ"
+  },
+  {
+    "cauhoi": "Theo quan điểm của Hồ Chí Minh, trong đời sống có bốn vấn đề nào được coi là quan trọng ngang nhau và có sự tác động qua lại lẫn nhau?",
+    "dapan": {
+      "A": "Chính trị, quân sự, kinh tế, giáo dục",
+      "B": "Chính trị, kinh tế, văn hóa, xã hội",
+      "C": "Khoa học, công nghệ, thể thao, giải trí",
+      "D": "Nghệ thuật, văn học, âm nhạc, điện ảnh"
+    },
+    "dapandung": "B",
+    "giaithich": "Câu 1 – phần b , đoạn đầu, dòng thứ 4"
+  },
+  {
+    "cauhoi": "Theo Hồ Chí Minh, giải phóng chính trị đồng nghĩa với việc nào sau đây?",
+    "dapan": {
+      "A": "Giải phóng kinh tế",
+      "B": "Giải phóng xã hội",
+      "C": "Giải phóng văn hóa",
+      "D": "Giải phóng quân sự"
+    },
+    "dapandung": "B",
+    "giaithich": "Câu 1- phần b, đoạn 3 , dòng thứ 2"
+  },
+  {
+    "cauhoi": "Hồ Chí Minh cho rằng tiếp thu văn hóa nhân loại là để",
+    "dapan": {
+      "A": "Làm giàu cho văn hóa Việt Nam",
+      "B": "Thay thế văn hóa dân tộc",
+      "C": "Phát triển nền văn hóa riêng biệt của mỗi dân tộc",
+      "D": "Học theo một cách máy móc"
+    },
+    "dapandung": "A",
+    "giaithich": "Câu 1- phần b, đoạn cuối , dòng thứ 2"
+  },
+  {
+    "cauhoi": "Quan điểm của Hồ Chí Minh về âm nhạc dân tộc Việt Nam là:",
+    "dapan": {
+      "A": "Không có giá trị",
+      "B": "Phải khai thác và phát triển",
+      "C": "Phải thay thế bằng âm nhạc phương Tây",
+      "D": "Không cần chú trọng"
+    },
+    "dapandung": "B",
+    "giaithich": "Câu 1 - phần b, đoạn 6 , dòng thứ 6"
+  },
+  {
+    "cauhoi": "Theo Hồ Chí Minh, văn hóa Việt Nam chịu ảnh hưởng: ",
+    "dapan": {
+      "A": "Chỉ từ văn hóa phương Tây",
+      "B": "Chỉ từ văn hóa phương Đông",
+      "C": "Từ cả văn hóa Đông phương và Tây phương",
+      "D": "Không chịu ảnh hưởng từ bên ngoài"
+    },
+    "dapandung": "C",
+    "giaithich": "Câu 1- phần b, đoạn 7, dòng thứ 4, thứ 5"
+  },
+  {
+    "cauhoi": "Văn hóa cũng không thể đứng ngoài mà phải đứng trong kinh tế, nghĩa là văn hóa ………… vào kinh tế? ",
+    "dapan": {
+      "A": "Không phụ thuộc ",
+      "B": "Phụ thuộc ",
+      "C": "Không hoàn toàn phụ thuộc ",
+      "D": "Hoàn toàn phụ thuộc"
+    },
+    "dapandung": "C",
+    "giaithich": "Đoạn “Quan hệ giữa văn hóa với kinh tế” trang 209"
+  },
+  {
+    "cauhoi": "Bản sắc văn hóa dân tộc được nhìn nhận qua mấy lớp quan hệ, đó là lớp quan hệ nào? ",
+    "dapan": {
+      "A": "2, nội dung và hình thức ",
+      "B": "2, nội dung và nghệ thuật",
+      "C": "3, nội dung, hình thức và nghệ thuật",
+      "D": "Tất cả đáp án đều sai"
+    },
+    "dapandung": "A",
+    "giaithich": "Đoạn thứ hai trang 210, dòng 1"
+  },
+  {
+    "cauhoi": "“Nó là ngọn nguồn đi tới chủ nghĩa Mác Lê – nin”, vậy “nó” ở đây là gì?",
+    "dapan": {
+      "A": "Văn hóa ",
+      "B": "Chính trị ",
+      "C": "Xã hội",
+      "D": "Bản sắc văn hóa dân tộc"
+    },
+    "dapandung": "D",
+    "giaithich": "Đoạn cuối trang 210, dòng thứ 4\n"
+  },
+  {
+    "cauhoi": "Mối quan hệ giữa giữ gìn cốt cách văn hóa dân tộc và tiếp thu văn hóa nhân loại phải lấy gì làm gốc? ",
+    "dapan": {
+      "A": "Văn hóa nhân loại",
+      "B": "Văn hóa dân tộc",
+      "C": "Văn hóa",
+      "D": "Xã hội"
+    },
+    "dapandung": "B",
+    "giaithich": "Đoạn kết cuối trang 212"
+  },
+  {
+    "cauhoi": "Tiếp biến văn hóa được hiểu như thế nào?\n",
+    "dapan": {
+      "A": "Tiếp thu và biến chuyển",
+      "B": "Tiếp thu và biến đổi",
+      "C": "Tiếp nhận và biến đổi",
+      "D": "Tiếp nhận và biến chuyển"
+    },
+    "dapandung": "C",
+    "giaithich": "Đoạn đầu trang 211, dòng thứ 2\n"
+  },
+  {
+    "cauhoi": "Văn hóa nào diệt giặt dốt, xóa mù chữ, giúp con người biết quy luật phát triển của xã hội?\n",
+    "dapan": {
+      "A": "Chính trị",
+      "B": "Pháp luật",
+      "C": "Giáo dục ",
+      "D": "Đạo đức"
+    },
+    "dapandung": "C",
+    "giaithich": "giáo trình trang 214"
+  },
+  {
+    "cauhoi": "Di sản Hồ Chí Minh cho thấy động lực phát triển đất nước bao gồm những động lực nào?\n",
+    "dapan": {
+      "A": "Động lực vật chất và tinh thần ",
+      "B": "Động lực cộng đồng và cá nhân",
+      "C": "Nội lực và ngoại lực",
+      "D": "Tất cả các ý trên"
+    },
+    "dapandung": "D",
+    "giaithich": "giáo  trình trang 214, dòng 2-4"
+  },
+  {
+    "cauhoi": "Điền vào chỗ trống: “Theo quan điểm của Hồ Chí Minh, …… là gốc của người cách mạng”.\n",
+    "dapan": {
+      "A": "Chính trị",
+      "B": "Đạo đức ",
+      "C": "Giáo dục",
+      "D": "Văn nghệ"
+    },
+    "dapandung": "B",
+    "giaithich": "giáo trình trang 214, đoạn cuối"
+  },
+  {
+    "cauhoi": "Văn hóa nào đảm bảo dân chủ, trật tự, kỷ cương, phép nước?\n",
+    "dapan": {
+      "A": "Chính trị",
+      "B": "Giáo dục",
+      "C": "Đạo đức",
+      "D": "Pháp luật "
+    },
+    "dapandung": "D",
+    "giaithich": "giáo trình trang 215, dòng 4,5"
+  },
+  {
+    "cauhoi": "Ai đã đặt cơ sở cho một xã hội phát triển bền vững với ba trụ cột là bền vững về kinh tế, xã hội và môi trường?",
+    "dapan": {
+      "A": "Hồ Chính Minh ",
+      "B": "C. Mác",
+      "C": "V. I. Lênin",
+      "D": "Ph. Angghen"
+    },
+    "dapandung": "A",
+    "giaithich": "giáo trình trang 213"
+  },
+  {
+    "cauhoi": "Văn hóa nào là một trong những động lực có ý nghĩa soi đường cho quốc dân đi, lãnh đạo quốc dân để thực hiện độc lập, tự cường, tự chủ?\n",
+    "dapan": {
+      "A": "Chính trị",
+      "B": "Văn nghệ",
+      "C": "Đạo đức",
+      "D": "Giáo dục"
+    },
+    "dapandung": "A",
+    "giaithich": "giáo trình trang 214"
+  },
+  {
+    "cauhoi": "Điền vào chỗ trống: “Theo quan điểm của Hồ Chí Minh, văn hóa là mục tiêu – nhìn một cách tổng quát – là ……; là khát vọng của nhân dân về các giá trị chân, thiện, mỹ”.\n\n",
+    "dapan": {
+      "A": "quyền sống",
+      "B": "quyền sống, quyền sung sướng",
+      "C": "quyền sống, quyền sung sướng, quyền tự do",
+      "D": "quyền sống, quyền sung sướng, quyền tự do, quyền mưu cầu hạnh phúc."
+    },
+    "dapandung": "D",
+    "giaithich": "giáo trình trang 213"
+  },
+  {
+    "cauhoi": "Mặt trận văn hóa theo Hồ Chí Minh là gì?\n",
+    "dapan": {
+      "A": "Một loại hình tổ chức chính trị",
+      "B": "Đấu tranh vì lợi ích cá nhân",
+      "C": "Cuộc đấu tranh cách mạng trên lĩnh vực văn hóa - tư tưởng ",
+      "D": "Chiến sĩ nghệ thuật là người chỉ huy"
+    },
+    "dapandung": "C",
+    "giaithich": "Trang 215 đoạn 1 dòng 6-7\n"
+  },
+  {
+    "cauhoi": "Vai trò của ngòi bút trong sự nghiệp \"phò chính trừ tà“ theo Hồ Chí Minh là gì?\n\n\n",
+    "dapan": {
+      "A": "Chỉ dẫn quân đội",
+      "B": "Để ca tụng chính quyền",
+      "C": "Là vũ khí sắc bén trong cuộc chiến văn hóa ",
+      "D": "Để xây dựng phong trào giải trí"
+    },
+    "dapandung": "C",
+    "giaithich": "Trang 215 đoạn 2 dòng 2-3"
+  },
+  {
+    "cauhoi": "Theo quan điểm của Hồ Chí Minh, văn hóa được xem như một gì?",
+    "dapan": {
+      "A": "Một công cụ để kiểm soát quần chúng",
+      "B": "Một trong bốn nội dung chính của đời sống kinh tế - xã hội ",
+      "C": "Một loại hình tổ chức chính trị",
+      "D": "Một khía cạnh du lịch và giải trí"
+    },
+    "dapandung": "B",
+    "giaithich": "\nTrang 215 đoạn 1 dòng đầu \n"
+  },
+  {
+    "cauhoi": "Theo Hồ Chí Minh chiến sĩ văn nghệ phải làm gì để đáp ứng yêu cầu của thời đại và dân tộc?\n",
+    "dapan": {
+      "A": "Viết những câu chuyện giải trí và hài hước",
+      "B": "Sản xuất những tác phẩm mang tính chất thương mại cao",
+      "C": "Tạo ra những sản phẩm nghệ thuật xứng đáng với dân tộc anh hùng và thời đại vẻ vang",
+      "D": "Thực hiện các dự án văn hóa đặc biệt"
+    },
+    "dapandung": "C",
+    "giaithich": "Trang 216 đoạn 3 dòng cuối\n"
+  },
+  {
+    "cauhoi": "Theo Người mọi hoạt động văn hoá phải trở về với cuộc sống thực tại của quần chúng, phản ánh điều gì?\n",
+    "dapan": {
+      "A": "Niềm tin của nhân dân ",
+      "B": "Hy vọng của nhân dân",
+      "C": "Tư tưởng và khát vọng của quần chúng",
+      "D": "A, C đều đúng"
+    },
+    "dapandung": "C",
+    "giaithich": "tr.216. Đoạn đầu của phần c"
+  },
+  {
+    "cauhoi": "Chọn phương án đúng theo quan điểm của Hồ Chí Minh về vai trò của chiến sĩ văn nghệ",
+    "dapan": {
+      "A": "Sản xuất các tác phẩm theo xu hướng thị trường ",
+      "B": "Thực hiện các dự án nghệ thuật cá nhân ",
+      "C": "Viết và sáng tác để góp phần xây dựng xã hội và phát triển văn hóa dân tộc",
+      "D": "Chỉ tập trung vào các chủ đề giải trí và thư giãn"
+    },
+    "dapandung": "C",
+    "giaithich": "Trang 216 đoạn 1 dòng cuối\n"
+  },
+  {
+    "cauhoi": "Theo quan điểm của Hồ Chí Minh, văn hóa là mục tiêu – nhìn một cách tổng quát – là ……; là khát vọng của nhân dân về các giá trị chân, thiện, mỹ\".\n",
+    "dapan": {
+      "A": "quyền học hành, quyền lao động, quyền hưởng thụ văn hóa ",
+      "B": "quyền tự do ngôn luận, quyền hội họp, quyền thành lập hội nhóm ",
+      "C": "quyền sống, quyền tự do, quyền mưu cầu hạnh phúc ",
+      "D": "quyền sống, quyền sung sướng, quyền tự do, quyền mưu cầu hạnh phúc hehe"
+    },
+    "dapandung": "D",
+    "giaithich": "Trang 212 đoạn 3 dòng cuối\n"
+  },
+  {
+    "cauhoi": "Tư tưởng văn hoá của Người là phục vụ?\n\n",
+    "dapan": {
+      "A": "Đảng và Nhà nước",
+      "B": "Vì dân, phục vụ nhân dân",
+      "C": "Cả hai đáp án trên đều đúng",
+      "D": "Cả hai đều sai"
+    },
+    "dapandung": "B",
+    "giaithich": "tr.216, dòng 2,3"
+  },
+  {
+    "cauhoi": "Theo người mọi hoạt động văn hoá phải trở về với cuộc sống thực tại của quần chúng, phản ánh được”......”và”.....” của quần chúng.\n",
+    "dapan": {
+      "A": "Quan điểm, khát vọng",
+      "B": "Khát vọng, hy vọng",
+      "C": "Tư tưởng, khát vọng",
+      "D": "Tất cả đều sai"
+    },
+    "dapandung": "C",
+    "giaithich": "tr 216, dòng cuối đoạn đầu"
+  },
+  {
+    "cauhoi": "Trong văn hoá phục vụ quần chúng nhân dân phải miêu tả như thế nào?\n",
+    "dapan": {
+      "A": "Phải hay ",
+      "B": "Phải thật",
+      "C": "Phải hùng hồn",
+      "D": "Tất cả đều đúng"
+    },
+    "dapandung": "D",
+    "giaithich": "dòng 2, đoạn 2, tr.216"
+  },
+  {
+    "cauhoi": "Một trong những nội dung Hồ Chí Minh quan tâm trong việc xây dựng nền văn hóa dân tộc trước Cách mạng Tháng Tám năm 1945 là gì?",
+    "dapan": {
+      "A": "Xây dựng quân đội mạnh",
+      "B": "Xây dựng kinh tế",
+      "C": "Xây dựng ngoại giao",
+      "D": "Xây dựng giáo dục"
+    },
+    "dapandung": "B",
+    "giaithich": "là 1 trong năm nội dung  mà HCM đưa trong việc xây dựng nên văn hoá dân tộc (TRANG 217, chương I phần B)"
+  },
+  {
+    "cauhoi": "Trong kháng chiến chống thực dân Pháp, Hồ Chí Minh khẳng định lại quan điểm của Đảng từ năm nào?",
+    "dapan": {
+      "A": "1943",
+      "B": "1945",
+      "C": "1950",
+      "D": "1954"
+    },
+    "dapandung": "A",
+    "giaithich": "HCM đã đã khẳng định lại quan điểm Đảng năm 1943 trong để cương văn hoá việt nam (TRANG 217, chương I phần B)\n"
+  },
+  {
+    "cauhoi": "Theo quan điểm của Hồ Chí Minh, nền văn hóa mới phải có tính chất gì?",
+    "dapan": {
+      "A": "Khoa học và hiện đại",
+      "B": "Dân tộc, khoa học, đại chúng",
+      "C": "Khoa học và hiện đại",
+      "D": "Truyền thống và hiện đại"
+    },
+    "dapandung": "B",
+    "giaithich": "Đề cương văn hoá Việt nam về phương châm xây dựng nền văn hoá mới có  tính chất dân tộc , khoa học, đại chúng (TRANG 217, chương I phần B)"
+  },
+  {
+    "cauhoi": "Trong thời kỳ xây dựng chủ nghĩa xã hội, Hồ Chí Minh chủ trương xây dựng nền văn hóa có nội dung gì?",
+    "dapan": {
+      "A": "Khoa học và giáo dục",
+      "B": "Dân tộc và quốc tế",
+      "C": "Xã hội chủ nghĩa và tính chất dân tộc",
+      "D": "Dân tộc và dân chủ"
+    },
+    "dapandung": "C",
+    "giaithich": "Trong thời kì xây dựng chủ nghĩa xã hội , Hồ chí minh đã chủ trương xây dựng nền văn hoá có nội dung xã hội chủ nghĩa và tính chất dân tộc (TRANG 218, chương I phần B)\n"
   }
 ]
